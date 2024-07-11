@@ -98,10 +98,10 @@ def start_game():
 
 pygame.init()
 pygame.mixer.init()
-correct_sound = pygame.mixer.Sound(r"C:\Users\Kimo Store\Desktop\HANGMAN\sounds\c.wav")
-incorrect_sound = pygame.mixer.Sound(r"C:\Users\Kimo Store\Desktop\HANGMAN\sounds\I.wav")
-win_sound = pygame.mixer.Sound(r"C:\Users\Kimo Store\Desktop\HANGMAN\sounds\W.wav")
-lose_sound = pygame.mixer.Sound(r"C:\Users\Kimo Store\Desktop\HANGMAN\sounds\L.wav")
+correct_sound = pygame.mixer.Sound(r"HANGMAN/sounds/c.wav")
+incorrect_sound = pygame.mixer.Sound(r"HANGMAN/sounds/I.wav")
+win_sound = pygame.mixer.Sound(r"HANGMAN/sounds/W.wav")
+lose_sound = pygame.mixer.Sound(r"/HANGMAN/sounds\L.wav")
 
 players = ["Player 1", "Player 2"]
 scores = [0, 0]
