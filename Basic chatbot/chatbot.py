@@ -105,7 +105,7 @@ root = tk.Tk()
 root.title("Football Chatbot")
 
 # Apply a football style background
-bg_image = Image.open("C:/Users/Kimo Store/Desktop/Basic chatbot/football_bg.jpg")
+bg_image = Image.open("Basic chatbot/football_bg.jpg")
 bg_photo = ImageTk.PhotoImage(bg_image)
 bg_label = tk.Label(root, image=bg_photo)
 bg_label.place(relwidth=1, relheight=1)
@@ -148,7 +148,7 @@ if __name__ == "__main__":
 
 
 # Apply a football style background
-bg_image = Image.open("C:Users/Kimo Store/Desktop/Basic chatbot/football_bg.jpg")
+bg_image = Image.open("Basic chatbot/football_bg.jpg")
 bg_photo = ImageTk.PhotoImage(bg_image)
 bg_label = tk.Label(root, image=bg_photo)
 bg_label.place(relwidth=1, relheight=1)
