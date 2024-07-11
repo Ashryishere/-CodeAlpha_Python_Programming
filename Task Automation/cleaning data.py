@@ -26,11 +26,11 @@ def read_csv_with_encoding(file_path):
             return pd.read_csv(file_path, encoding='utf-8', errors='ignore')
 
 # Read the dataset
-file_path = 'C:/Users/Kimo Store/Desktop/AI/UpdatedResumeDataSet.csv'
+file_path = 'Task Automation/UpdatedResumeDataSet.csv'
 df = read_csv_with_encoding(file_path)
 
 # Apply the cleaning function to the desired column(s)
 df['Resume'] = df['Resume'].apply(clean_text)
 
 # Save the cleaned dataset
-df.to_csv('C:/Users/Kimo Store/Desktop/AI/cleaned_dataset.csv', index=False)
+df.to_csv('Task Automation/cleaned_dataset.csv', index=False)
